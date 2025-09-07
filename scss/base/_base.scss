@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #2DB24A;
+    --primary-soft-color: #EAF7ED;
+
+    --background-color: #F0F1F3;
+
+    --gray-1: #C3C7CE;
+    --gray-2: #87909D;
+    --gray-3: #424E60;
+    --gray-4: #556070;
+    --gray-5: #A5ACB5;
+    --gray-6: #E6E8EB;
+
+    --black-1: #132238;
+
+    --white-text: #fff;
+
+
+    --text-xs: 1.4rem;
+    --text-sm: 1.6rem;
+    --text-md: 2rem;
+    --text-lg: 2.4rem;
+    --text-xl: 3.2rem;
+    --text-2xl: 3.6rem;
+    --text-xxl: 4.8rem;
+}
+
+.mt-sm {
+    margin-top: 1.6rem;
+}
+
+.mt-lg {
+    margin-top: 2.4rem;
+}
+
+.mt-md {
+    margin-top: 2rem;
+}
+
+.mt-xl {
+    margin-top: 3.2rem;
+}
+
+@mixin item-center {
+    display: flex;
+    align-items: center;
+}
