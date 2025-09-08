@@ -473,7 +473,8 @@ h3 {
   right: 8rem;
   z-index: 30;
 }
-.hero .gallery-mb {
+
+.gallery-mb {
   display: none;
 }
 
