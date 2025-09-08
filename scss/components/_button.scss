@@ -9,10 +9,10 @@
     font-weight: 600;
     color: var(--white-text);
     font-size: var(--text-xs);
-    line-height: 4.8rem;
+    line-height: 4.4rem;
 
     border-radius: 10rem;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 
     cursor: pointer;
 }
@@ -22,6 +22,17 @@
     @extend .btn;
     border: 2px solid #ffffff;
     background: transparent;
+
+    &:hover {
+        border: 2px solid var(--primary-color);
+        background-color: var(--primary-color);
+        color: var(--white-text);
+
+        svg path {
+            stroke: var(--white-text);
+            transition: all 0.5s ease;
+        }
+    }
 }
 
 .btn-outline-primary {
@@ -30,10 +41,15 @@
     background: transparent;
     color: var(--primary-color);
 
-    // svg path {
-    //     fill: var(--primary-color);
-    // }
+    &:hover {
+        background-color: var(--primary-color);
+        color: var(--white-text);
 
+        svg path {
+            stroke: var(--white-text);
+            transition: all 0.5s ease;
+        }
+    }
 }
 
 .btn-primary {
@@ -43,6 +59,18 @@
 
 
     &:hover {
-        @extend .btn-outline-primary;
+        border: 2px solid var(--primary-color);
+        background: transparent;
+        color: var(--primary-color);
+
+        svg path {
+            stroke: var(--primary-color);
+            transition: stroke 0.5s ease;
+        }
     }
+}
+
+.btn-full {
+    width: 100%;
+    justify-content: center;
 }

@@ -8,12 +8,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: transform 0.5s ease;
 }
 
 .wrapper-icon-outline {
     @extend .wrapper-icon;
     border: 2px solid var(--primary-soft-color);
     background-color: #fff;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 
 .wrapper-icon-soft-primary {
@@ -32,4 +38,8 @@
     @extend .wrapper-icon;
     border: 2px solid #fff;
     background-color: #fff;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 }
