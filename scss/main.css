@@ -403,7 +403,7 @@ h3 {
   position: absolute;
   inset: 0;
   opacity: 0.09;
-  background: url(../../assets/images/banner/background.jpg) center/cover no-repeat;
+  background: url("../../assets/images/banner/background.jpg") center/cover no-repeat;
   padding-top: 30%;
 }
 .hero .hero-text-wrapper {
