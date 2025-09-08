@@ -1,13 +1,13 @@
 :root {
-  --primary-color: #2DB24A;
-  --primary-soft-color: #EAF7ED;
-  --background-color: #F0F1F3;
-  --gray-1: #C3C7CE;
-  --gray-2: #87909D;
-  --gray-3: #424E60;
+  --primary-color: #2db24a;
+  --primary-soft-color: #eaf7ed;
+  --background-color: #f0f1f3;
+  --gray-1: #c3c7ce;
+  --gray-2: #87909d;
+  --gray-3: #424e60;
   --gray-4: #556070;
-  --gray-5: #A5ACB5;
-  --gray-6: #E6E8EB;
+  --gray-5: #a5acb5;
+  --gray-6: #e6e8eb;
   --black-1: #132238;
   --white-text: #fff;
   --text-xs: 1.4rem;
@@ -223,7 +223,10 @@ h3 {
   background: var(--gray-6);
 }
 
-.btn, .btn-primary, .btn-outline-primary, .btn-outline {
+.btn,
+.btn-primary,
+.btn-outline-primary,
+.btn-outline {
   padding: 0rem 3.2rem;
   display: flex;
   align-items: center;
@@ -285,7 +288,11 @@ h3 {
   justify-content: center;
 }
 
-.wrapper-icon, .wrapper-icon-white, .wrapper-icon-scroll-top, .wrapper-icon-soft-primary, .wrapper-icon-outline {
+.wrapper-icon,
+.wrapper-icon-white,
+.wrapper-icon-scroll-top,
+.wrapper-icon-soft-primary,
+.wrapper-icon-outline {
   width: 4.8rem;
   height: 4.8rem;
   border-radius: 10rem;
@@ -403,7 +410,7 @@ h3 {
   position: absolute;
   inset: 0;
   opacity: 0.09;
-  background: url(./assets/images/banner/background.jpg) center/cover no-repeat;
+  background: url(/assets/images/banner/background.jpg) center/cover no-repeat;
   padding-top: 30%;
 }
 .hero .hero-text-wrapper {
@@ -461,7 +468,7 @@ h3 {
   max-width: calc(16.6666666667% - 2.4rem);
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 .hero .hero-gallery img:nth-child(odd) {
@@ -629,7 +636,7 @@ h3 {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 .gallery .gallery-grid img:hover {
@@ -674,11 +681,20 @@ h3 {
   gap: 2.4rem;
   justify-content: space-between;
 }
-.services .services-wrapper .services-content .service-list .service-item:hover {
+.services
+  .services-wrapper
+  .services-content
+  .service-list
+  .service-item:hover {
   border: 2px solid var(--primary-color);
   box-shadow: 0 8px 24px 0 rgba(45, 178, 74, 0.08);
 }
-.services .services-wrapper .services-content .service-list .service-item .service-text {
+.services
+  .services-wrapper
+  .services-content
+  .service-list
+  .service-item
+  .service-text {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -695,7 +711,7 @@ h3 {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
 }
@@ -812,7 +828,12 @@ h3 {
 .blog .blog-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 39%, rgba(0, 0, 0, 0) 97%);
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 39%,
+    rgba(0, 0, 0, 0) 97%
+  );
   opacity: 0;
   pointer-events: none;
 }
@@ -825,7 +846,7 @@ h3 {
   height: auto;
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 .blog .blog-content {
@@ -890,7 +911,7 @@ h3 {
   height: auto;
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .post .post-item:hover .post-overlay {
   opacity: 1;
@@ -1506,4 +1527,4 @@ h3 {
     gap: 5rem;
   }
 }
-/* Variables *//*# sourceMappingURL=main.css.map */
+/* Variables */ /*# sourceMappingURL=main.css.map */
