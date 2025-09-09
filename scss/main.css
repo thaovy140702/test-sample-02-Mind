@@ -293,7 +293,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
 }
 
 .wrapper-icon-outline {
@@ -557,14 +557,6 @@ h3 {
   display: flex;
   gap: 0.8rem;
 }
-.about .about-content .about-actions .social-icons a {
-  font-size: 1.2rem;
-  color: #0f172a;
-  transition: color 0.3s;
-}
-.about .about-content .about-actions .social-icons a:hover {
-  color: #22c55e;
-}
 
 .gallery {
   padding: 10rem 0;
@@ -697,8 +689,8 @@ h3 {
   display: block;
   transition: transform 0.3s ease;
 }
-.services .services-wrapper .services-content .services-gallery:hover img {
-  transform: scale(1.05);
+.services .services-wrapper .services-content .services-gallery img:hover {
+  transform: translateY(-2rem);
 }
 
 .pricing {
@@ -1077,10 +1069,10 @@ h3 {
     line-height: 4.4rem;
   }
   .hero {
-    height: 75vh;
+    height: 70vh;
   }
   .hero .hero-container {
-    height: 75vh;
+    height: 70vh;
   }
   .hero .hero-text-wrapper {
     flex-direction: column;
@@ -1116,6 +1108,7 @@ h3 {
     text-align: justify;
   }
   .gallery-mb {
+    display: block;
     margin-top: 5rem;
     position: relative;
     width: 100%;
@@ -1191,6 +1184,7 @@ h3 {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border: 1px solid var(--gray-6);
   }
   .about .about-image .about-stats .stat {
     gap: 1rem;
@@ -1244,6 +1238,7 @@ h3 {
   }
   .services .services-wrapper {
     margin: 0 auto;
+    gap: 2rem;
   }
   .services .services-wrapper .services-content {
     gap: 3.5rem;
@@ -1261,6 +1256,9 @@ h3 {
   .pricing {
     padding: 3rem 0;
   }
+  .pricing .pricing-wrapper {
+    gap: 3rem;
+  }
   .pricing .pricing-list {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1268,7 +1266,7 @@ h3 {
     padding: 3.2rem;
   }
   .blog .blog-wrapper {
-    padding: 5rem 0;
+    padding: 3rem 0;
   }
   .blog .blog-list {
     grid-template-columns: repeat(1, 1fr);
@@ -1303,6 +1301,10 @@ h3 {
   .contact .contact-form .form-row {
     grid-template-columns: repeat(1, 1fr);
   }
+  .contact .contact-form button {
+    width: 100%;
+    justify-content: center;
+  }
   .footer {
     padding: 3rem 0;
   }
@@ -1314,10 +1316,13 @@ h3 {
     line-height: 4.4rem;
   }
   .hero {
-    height: 90vh;
+    height: 95vh;
   }
   .hero .hero-container {
     height: 75vh;
+  }
+  .hero .hero-text-wrapper {
+    margin-top: 2rem;
   }
   .hero .hero-text-wrapper h1 {
     font-size: var(--text-3xl);
@@ -1363,6 +1368,9 @@ h3 {
   }
   .gallery {
     padding: 5rem 0;
+  }
+  .gallery .gallery-grid {
+    gap: 2rem;
   }
   .services {
     padding: 5rem 0;
@@ -1545,6 +1553,24 @@ h3 {
   }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .hero {
+    height: 90vh;
+  }
+  .hero .hero-container {
+    height: 80vh;
+  }
+  .hero .hero-text-wrapper h1 {
+    font-size: var(--text-xl);
+  }
+  .hero .hero-text-wrapper .hero-text p {
+    font-size: var(--text-xs);
+  }
+  .hero .hero-gallery {
+    gap: 2rem;
+  }
+  .hero .hero-gallery img {
+    max-width: calc(16.6666666667% - 2rem);
+  }
   .services .services-wrapper .services-header {
     max-width: 40%;
   }

@@ -287,15 +287,15 @@ $text-dark: #111;
                 display: flex;
                 gap: 0.8rem;
 
-                a {
-                    font-size: 1.2rem;
-                    color: $secondary;
-                    transition: color 0.3s;
+                // a {
+                //     font-size: 1.2rem;
+                //     color: $secondary;
+                //     transition: color 0.3s;
 
-                    &:hover {
-                        color: $primary;
-                    }
-                }
+                //     &:hover {
+                //         color: $primary;
+                //     }
+                // }
             }
         }
     }
@@ -456,11 +456,12 @@ $text-dark: #111;
                     object-fit: cover;
                     display: block;
                     transition: transform 0.3s ease;
+
+                    &:hover {
+                        transform: translateY(-2rem);
+                    }
                 }
 
-                &:hover img {
-                    transform: scale(1.05);
-                }
             }
         }
 
@@ -930,10 +931,10 @@ $text-dark: #111;
     }
 
     .hero {
-        height: 75vh;
+        height: 70vh;
 
         .hero-container {
-            height: 75vh;
+            height: 70vh;
         }
 
         .hero-text-wrapper {
@@ -986,6 +987,7 @@ $text-dark: #111;
     }
 
     .gallery-mb {
+        display: block;
         margin-top: 5rem;
         position: relative;
         width: 100%;
@@ -1074,6 +1076,7 @@ $text-dark: #111;
                 width: 100%;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
+                border: 1px solid var(--gray-6);
 
                 .stat {
                     gap: 1rem;
@@ -1088,6 +1091,8 @@ $text-dark: #111;
                         font-size: var(--text-xs);
                         line-height: 1rem;
                     }
+
+
                 }
             }
         }
@@ -1148,6 +1153,7 @@ $text-dark: #111;
 
         .services-wrapper {
             margin: 0 auto;
+            gap: 2rem;
 
             .services-content {
                 gap: 3.5rem;
@@ -1172,6 +1178,10 @@ $text-dark: #111;
     .pricing {
         padding: 3rem 0;
 
+        .pricing-wrapper {
+            gap: 3rem;
+        }
+
         .pricing-list {
             grid-template-columns: repeat(1, 1fr);
         }
@@ -1183,7 +1193,7 @@ $text-dark: #111;
 
     .blog {
         .blog-wrapper {
-            padding: 5rem 0;
+            padding: 3rem 0;
         }
 
         .blog-list {
@@ -1234,6 +1244,11 @@ $text-dark: #111;
             .form-row {
                 grid-template-columns: repeat(1, 1fr);
             }
+
+            button {
+                width: 100%;
+                justify-content: center;
+            }
         }
     }
 
@@ -1250,13 +1265,15 @@ $text-dark: #111;
     }
 
     .hero {
-        height: 90vh;
+        height: 95vh;
 
         .hero-container {
             height: 75vh;
         }
 
         .hero-text-wrapper {
+            margin-top: 2rem;
+
             h1 {
                 font-size: var(--text-3xl);
             }
@@ -1321,6 +1338,10 @@ $text-dark: #111;
 
     .gallery {
         padding: 5rem 0;
+
+        .gallery-grid {
+            gap: 2rem;
+        }
     }
 
     .services {
@@ -1581,6 +1602,37 @@ $text-dark: #111;
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+    .hero {
+        height: 90vh;
+
+        .hero-container {
+            height: 80vh;
+        }
+
+        .hero-text-wrapper {
+
+            h1 {
+                font-size: var(--text-xl);
+            }
+
+            .hero-text {
+                p {
+                    font-size: var(--text-xs);
+                }
+            }
+        }
+
+        .hero-gallery {
+            gap: 2rem;
+
+            img {
+                max-width: calc(100% / 6 - 2rem);
+
+            }
+        }
+
+    }
+
     .services {
         .services-wrapper {
             .services-header {
