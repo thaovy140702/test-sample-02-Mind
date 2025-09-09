@@ -1566,6 +1566,7 @@ h3 {
     font-size: var(--text-xs);
   }
   .hero .hero-gallery {
+    margin-top: 2rem;
     gap: 2rem;
   }
   .hero .hero-gallery img {
