@@ -918,7 +918,7 @@ h3 {
 .contact .contact-info .contact-list {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: start;
   gap: 2.4rem;
   margin-top: 3.2rem;
 }
@@ -1561,6 +1561,9 @@ h3 {
   .hero .hero-text-wrapper h1 {
     font-size: var(--text-xl);
   }
+  .hero .hero-text-wrapper .hero-text {
+    gap: 1.5rem;
+  }
   .hero .hero-text-wrapper .hero-text p {
     font-size: var(--text-xs);
   }
@@ -1570,6 +1573,9 @@ h3 {
   }
   .hero .hero-gallery img {
     max-width: calc(16.6666666667% - 2rem);
+  }
+  .hero .hero-gallery img:nth-child(odd) {
+    transform: translateY(-3.2rem);
   }
   .services .services-wrapper .services-header {
     max-width: 40%;
