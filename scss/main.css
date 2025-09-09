@@ -931,7 +931,7 @@ h3 {
 .contact .contact-info .contact-list .contact-text {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: start;
   gap: 0.6rem;
 }
 .contact .contact-info .contact-list .contact-text a {
