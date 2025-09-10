@@ -15,62 +15,61 @@
     transition: all 0.5s ease;
 
     cursor: pointer;
-}
 
+    &--outline {
+        @extend .btn;
+        border: 2px solid #ffffff;
+        background: transparent;
 
-.btn-outline {
-    @extend .btn;
-    border: 2px solid #ffffff;
-    background: transparent;
+        &:hover {
+            border: 2px solid var(--primary-color);
+            background-color: var(--primary-color);
+            color: var(--white-text);
 
-    &:hover {
-        border: 2px solid var(--primary-color);
-        background-color: var(--primary-color);
-        color: var(--white-text);
-
-        svg path {
-            stroke: var(--white-text);
-            transition: all 0.5s ease;
+            svg path {
+                stroke: var(--white-text);
+                transition: all 0.5s ease;
+            }
         }
     }
-}
 
-.btn-outline-primary {
-    @extend .btn;
-    border: 2px solid var(--primary-color);
-    background: transparent;
-    color: var(--primary-color);
-
-    &:hover {
-        background-color: var(--primary-color);
-        color: var(--white-text);
-
-        svg path {
-            stroke: var(--white-text);
-            transition: all 0.5s ease;
-        }
-    }
-}
-
-.btn-primary {
-    @extend .btn;
-    background-color: var(--primary-color);
-    border: 2px solid var(--primary-color);
-
-
-    &:hover {
+    &--outline-primary {
+        @extend .btn;
         border: 2px solid var(--primary-color);
         background: transparent;
         color: var(--primary-color);
 
-        svg path {
-            stroke: var(--primary-color);
-            transition: stroke 0.5s ease;
+        &:hover {
+            background-color: var(--primary-color);
+            color: var(--white-text);
+
+            svg path {
+                stroke: var(--white-text);
+                transition: all 0.5s ease;
+            }
         }
     }
-}
 
-.btn-full {
-    width: 100%;
-    justify-content: center;
+    &--primary {
+        @extend .btn;
+        background-color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+
+
+        &:hover {
+            border: 2px solid var(--primary-color);
+            background: transparent;
+            color: var(--primary-color);
+
+            svg path {
+                stroke: var(--primary-color);
+                transition: stroke 0.5s ease;
+            }
+        }
+    }
+
+    &--full {
+        width: 100%;
+        justify-content: center;
+    }
 }

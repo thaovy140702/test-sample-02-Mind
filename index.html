@@ -16,11 +16,11 @@
   </head>
   <body>
     <div class="hero">
-      <div class="hero-container"></div>
+      <div class="hero__container"></div>
 
-      <header class="site-header">
-        <div class="container header-wrapper">
-          <h1 class="logo">
+      <header class="header">
+        <div class="container header__wrapper">
+          <h1 class="header__logo">
             <svg
               width="48"
               height="48"
@@ -46,8 +46,8 @@
             <a href="/" aria-label="Robert Warren Photography">Robert Warren</a>
           </h1>
 
-          <div class="right-header">
-            <nav class="main-nav">
+          <div class="header__right">
+            <nav class="header__nav">
               <ul>
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -59,7 +59,7 @@
             </nav>
             <a
               href="tel:+1202555020"
-              class="btn btn-primary"
+              class="btn btn--primary"
               aria-label="Call Robert Warren"
             >
               <svg
@@ -96,7 +96,7 @@
             >
           </div>
 
-          <div class="hamburger-menu">
+          <div class="header__hamburger">
             <svg
               width="48"
               height="48"
@@ -130,17 +130,17 @@
         </div>
       </header>
 
-      <div class="container hero-text-wrapper">
-        <h1>Hello, I’m Robert. I’m expert in capturing all the feelings.</h1>
+      <div class="container hero__text-wrapper">
+        <h1>Hello, I'm Robert. I'm expert in capturing all the feelings.</h1>
 
-        <div class="hero-text">
+        <div class="hero__text">
           <p>
             Nullam et ex lectus. Integer felis sapien, tempor maximus est in,
             commodo aliquam libero. Curabitur quam risus, consequat nec commodo
             nec, bibendum sed sapien.
           </p>
-          <div class="hero-buttons">
-            <button class="btn btn-primary">
+          <div class="hero__buttons">
+            <button class="btn btn--primary">
               View Gallery
               <svg
                 width="24"
@@ -165,7 +165,7 @@
                 />
               </svg>
             </button>
-            <button class="btn btn-outline">
+            <button class="btn btn--outline">
               <svg
                 width="24"
                 height="24"
@@ -206,7 +206,7 @@
         </div>
       </div>
 
-      <div class="hero-gallery">
+      <div class="hero__gallery">
         <img
           src="assets/images/banner/06.jpg"
           alt="Closeup of couple holding hands"
@@ -238,7 +238,7 @@
         />
       </div>
 
-      <a class="wrapper-icon-scroll-top fixed-scroll" href="/">
+      <a class="wrapper-icon--scroll fixed-scroll" href="/">
         <svg
           width="24"
           height="24"
@@ -315,7 +315,7 @@
 
     <main>
       <section class="gallery-mb" id="gallerry-mb">
-        <div class="gallery-slider">
+        <div class="gallery-mb__slider">
           <img
             src="assets/images/banner/06.jpg"
             alt="Closeup of couple holding hands"
@@ -347,55 +347,55 @@
           />
         </div>
 
-        <div class="gallery-dots">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
+        <div class="gallery-mb__dots">
+          <span class="gallery-mb__dot gallery-mb__dot--active"></span>
+          <span class="gallery-mb__dot"></span>
+          <span class="gallery-mb__dot"></span>
+          <span class="gallery-mb__dot"></span>
+          <span class="gallery-mb__dot"></span>
+          <span class="gallery-mb__dot"></span>
         </div>
       </section>
 
       <section class="about" id="about">
-        <div class="container about-wrapper">
-          <div class="about-image">
+        <div class="container about__wrapper">
+          <div class="about__image">
             <figure>
               <img
                 src="assets/images/section/robert.jpg"
                 alt="Portrait of Robert Warren, professional photographer"
               />
             </figure>
-            <div class="about-stats">
-              <div class="stat">
-                <span class="number">26+</span>
-                <span class="label">Years of Experience</span>
+            <div class="about__stats">
+              <div class="about__stat">
+                <span class="about__stat__number">26+</span>
+                <span class="about__stat__label">Years of Experience</span>
               </div>
 
               <div class="text-divider mb-hidden"></div>
-              <div class="stat">
-                <span class="number">98.5%</span>
-                <span class="label">Client Satisfaction</span>
-              </div>
-
-              <div class="text-divider mb-hidden"></div>
-
-              <div class="stat">
-                <span class="number">2149+</span>
-                <span class="label">Beautiful Photos</span>
+              <div class="about__stat">
+                <span class="about__stat__number">98.5%</span>
+                <span class="about__stat__label">Client Satisfaction</span>
               </div>
 
               <div class="text-divider mb-hidden"></div>
 
-              <div class="stat">
-                <span class="number">17+</span>
-                <span class="label">Awards</span>
+              <div class="about__stat">
+                <span class="about__stat__number">2149+</span>
+                <span class="about__stat__label">Beautiful Photos</span>
+              </div>
+
+              <div class="text-divider mb-hidden"></div>
+
+              <div class="about__stat">
+                <span class="about__stat__number">17+</span>
+                <span class="about__stat__label">Awards</span>
               </div>
             </div>
           </div>
 
-          <div class="about-content">
-            <div class="tags">
+          <div class="about__content">
+            <div class="about__tags">
               <span>📸 Photographer</span>
               <span>📖 Writer</span>
               <span>✈️ Traveler</span>
@@ -413,8 +413,8 @@
               congue dictum nam et nunc tincidunt, mollis sapien.
             </p>
 
-            <div class="about-actions">
-              <a href="#contact" class="btn btn-primary">
+            <div class="about__actions">
+              <a href="#contact" class="btn btn--primary">
                 <svg
                   width="24"
                   height="24"
@@ -451,8 +451,8 @@
 
                 Get In Touch</a
               >
-              <div class="social-icons">
-                <a href="#" aria-label="Facebook" class="wrapper-icon-outline">
+              <div class="about__social-icons">
+                <a href="#" aria-label="Facebook" class="wrapper-icon--outline">
                   <svg
                     width="16"
                     height="16"
@@ -468,7 +468,7 @@
                     />
                   </svg>
                 </a>
-                <a href="#" aria-label="Twitter" class="wrapper-icon-outline"
+                <a href="#" aria-label="Twitter" class="wrapper-icon--outline"
                   ><svg
                     width="17"
                     height="16"
@@ -482,7 +482,11 @@
                     />
                   </svg>
                 </a>
-                <a href="#" aria-label="Instagram" class="wrapper-icon-outline">
+                <a
+                  href="#"
+                  aria-label="Instagram"
+                  class="wrapper-icon--outline"
+                >
                   <svg
                     width="16"
                     height="16"
@@ -496,7 +500,7 @@
                     />
                   </svg>
                 </a>
-                <a href="#" aria-label="LinkedIn" class="wrapper-icon-outline">
+                <a href="#" aria-label="LinkedIn" class="wrapper-icon--outline">
                   <svg
                     width="16"
                     height="16"
@@ -515,7 +519,7 @@
                   </svg>
                 </a>
 
-                <a href="#" aria-label="Unsplash" class="wrapper-icon-outline">
+                <a href="#" aria-label="Unsplash" class="wrapper-icon--outline">
                   <svg
                     width="16"
                     height="16"
@@ -546,15 +550,15 @@
 
       <section class="gallery" id="gallery">
         <div class="container">
-          <div class="gallery-header">
-            <div class="gallery-text">
+          <div class="gallery__header">
+            <div class="gallery__text">
               <h2>My Gallery</h2>
               <p class="normal-text mt-md">
                 Nullam ligula nulla, mollis sed leo sit amet, gravida faucibus
                 ligula. Aliquam bibendum, sapien vel placerat.
               </p>
             </div>
-            <button class="btn btn-outline-primary mb-hidden">
+            <button class="btn btn--outline-primary mb-hidden">
               View More
               <svg
                 width="24"
@@ -581,8 +585,8 @@
             </button>
           </div>
 
-          <div class="gallery-grid">
-            <div class="gallery-1">
+          <div class="gallery__grid">
+            <div class="gallery__grid__1">
               <img
                 src="assets/images/gallerry/Image.jpg"
                 alt="Portrait photography"
@@ -596,7 +600,7 @@
                 alt="Breakfast pancakes with fruits"
               />
             </div>
-            <div class="gallery-2">
+            <div class="gallery__grid__2">
               <img
                 src="assets/images/gallerry/Image-3.jpg"
                 alt="Flower closeup"
@@ -606,7 +610,7 @@
                 alt="Interior photography with sofa"
               />
             </div>
-            <div class="gallery-3">
+            <div class="gallery__grid__3">
               <img
                 src="assets/images/gallerry/Image-5.jpg"
                 alt="Green cactus pattern"
@@ -626,8 +630,8 @@
             </div>
           </div>
 
-          <div class="btn-mb-layout">
-            <button class="btn btn-outline-primary desktop-hidden mt-md">
+          <div class="gallery__btn-mb">
+            <button class="btn btn--outline-primary desktop-hidden mt-md">
               View More
               <svg
                 width="24"
@@ -657,8 +661,8 @@
       </section>
 
       <section class="services" id="services">
-        <div class="services-wrapper">
-          <div class="services-header">
+        <div class="services__wrapper">
+          <div class="services__header">
             <h2>My Services</h2>
             <p class="normal-text mt-md">
               Nullam ligula nulla, mollis sed leo sit amet, gravida faucibus
@@ -666,9 +670,9 @@
             </p>
           </div>
 
-          <div class="services-content">
-            <div class="service-list">
-              <article class="service-item">
+          <div class="services__content">
+            <div class="services__list">
+              <article class="services__item">
                 <svg
                   width="40"
                   height="40"
@@ -709,7 +713,7 @@
                   />
                 </svg>
 
-                <div class="service-text">
+                <div class="services__text">
                   <h3>Portrait & Fashion Photography</h3>
                   <p class="normal-text">
                     Morbi semper sem diam, nec commodo diam laoreet at. Nunc
@@ -718,7 +722,7 @@
                 </div>
               </article>
 
-              <article class="service-item">
+              <article class="services__item">
                 <svg
                   width="40"
                   height="40"
@@ -782,7 +786,7 @@
                   />
                 </svg>
 
-                <div class="service-text">
+                <div class="services__text">
                   <h3>Wedding & Events Photography</h3>
                   <p class="normal-text">
                     Morbi semper sem diam, nec commodo diam laoreet at. Nunc
@@ -791,7 +795,7 @@
                 </div>
               </article>
 
-              <article class="service-item">
+              <article class="services__item">
                 <svg
                   width="40"
                   height="40"
@@ -819,7 +823,7 @@
                   />
                 </svg>
 
-                <div class="service-text">
+                <div class="services__text">
                   <h3>Architectural, Travel & Lifestyle</h3>
                   <p class="normal-text">
                     Morbi semper sem diam, nec commodo diam laoreet at. Nunc
@@ -852,13 +856,13 @@
 
       <section class="pricing" id="pricing">
         <div class="container">
-          <div class="pricing-wrapper">
+          <div class="pricing__wrapper">
             <h2>Pricing Plans</h2>
 
-            <div class="pricing-list">
-              <article class="pricing-card">
-                <p class="price">$625</p>
-                <div class="pricing-text mt-lg">
+            <div class="pricing__list">
+              <article class="pricing__card">
+                <p class="pricing__cost">$625</p>
+                <div class="pricing__text mt-lg">
                   <h3>Standard</h3>
                   <p class="normal-text">
                     In mi ex, rutrum sed dui et, dignissim tempor leo. Maecenas
@@ -866,8 +870,8 @@
                   </p>
                 </div>
                 <div class="text-divider mt-xl"></div>
-                <div class="pricing-fearure-list mt-xl">
-                  <div class="pricing-feature-item">
+                <div class="pricing__fearure-list mt-xl">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -895,10 +899,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">2 Hours</p>
+                    <p class="pricing__feature pricing__feature--unlock">
+                      2 Hours
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -926,10 +932,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">1 Photographer</p>
+                    <p class="pricing__feature pricing__feature--unlock">
+                      1 Photographer
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -953,10 +961,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature lock">Special Photo Edits</p>
+                    <p class="pricing__feature pricing__feature--lock">
+                      Special Photo Edits
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -980,12 +990,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature lock">
+                    <p class="pricing__feature pricing__feature--lock">
                       Wedding, Events & Festivals
                     </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1009,10 +1019,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature lock">Engagement Shoot</p>
+                    <p class="pricing__feature pricing__feature--lock">
+                      Engagement Shoot
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1036,13 +1048,15 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature lock ceremoney-feature">
+                    <p
+                      class="pricing__feature pricing__feature--lock pricing__feature--ceremoney"
+                    >
                       Ceremony Video
                     </p>
                   </div>
                 </div>
 
-                <button class="btn btn-outline-primary btn-full mt-xl">
+                <button class="btn btn--outline-primary btn--full mt-xl">
                   Let’s Work Together
                   <svg
                     width="24"
@@ -1069,13 +1083,13 @@
                 </button>
               </article>
 
-              <article class="pricing-card">
-                <div class="pricing-recommended">
-                  <p class="price">$1,600</p>
-                  <span class="recommended-tag">Recommended</span>
+              <article class="pricing__card">
+                <div class="pricing__recommended">
+                  <p class="pricing__cost">$1,600</p>
+                  <span class="pricing__recommended-tag">Recommended</span>
                 </div>
 
-                <div class="pricing-text mt-lg">
+                <div class="pricing__text mt-lg">
                   <h3>Premium</h3>
                   <p class="normal-text">
                     In mi ex, rutrum sed dui et, dignissim tempor leo. Maecenas
@@ -1083,8 +1097,8 @@
                   </p>
                 </div>
                 <div class="text-divider mt-xl"></div>
-                <div class="pricing-fearure-list mt-xl">
-                  <div class="pricing-feature-item">
+                <div class="pricing__fearure-list mt-xl">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1112,10 +1126,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">4 Hours</p>
+                    <p class="pricing__feature pricing__feature--unlock">
+                      4 Hours
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1143,10 +1159,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">1 Photographer</p>
+                    <p class="pricing__feature pricing__feature--unlock">
+                      1 Photographer
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item pricing__feature">
                     <svg
                       width="24"
                       height="24"
@@ -1174,10 +1192,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">Special Photo Edits</p>
+                    <p class="pricing__feature pricing__feature--unlock">
+                      Special Photo Edits
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1205,12 +1225,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">
+                    <p class="pricing__feature pricing__feature--unlock">
                       Wedding, Events & Festivals
                     </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1234,10 +1254,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature lock">Engagement Shoot</p>
+                    <p class="pricing__feature pricing__feature-lock">
+                      Engagement Shoot
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1261,12 +1283,14 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature lock ceremoney-feature">
+                    <p
+                      class="pricing__feature pricing__feature--lock pricing__feature--ceremoney"
+                    >
                       Ceremony Video
                     </p>
                   </div>
                 </div>
-                <button class="btn btn-outline-primary btn-full mt-xl">
+                <button class="btn btn--outline-primary btn--full mt-xl">
                   Let’s Work Together
                   <svg
                     width="24"
@@ -1293,10 +1317,10 @@
                 </button>
               </article>
 
-              <article class="pricing-card">
-                <p class="price">$3,650</p>
+              <article class="pricing__card">
+                <p class="pricing__cost">$3,650</p>
 
-                <div class="pricing-text mt-lg">
+                <div class="pricing__text mt-lg">
                   <h3>Business</h3>
                   <p class="normal-text">
                     In mi ex, rutrum sed dui et, dignissim tempor leo. Maecenas
@@ -1304,8 +1328,8 @@
                   </p>
                 </div>
                 <div class="text-divider mt-xl"></div>
-                <div class="pricing-fearure-list mt-xl">
-                  <div class="pricing-feature-item">
+                <div class="pricing__fearure-list mt-xl">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1333,10 +1357,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">6 Hours</p>
+                    <p class="pricing__feature pricing__feature--unlock">
+                      6 Hours
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1364,10 +1390,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">1 Photographer</p>
+                    <p class="pricing__feature pricing__feature-unlock">
+                      1 Photographer
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1395,10 +1423,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">Special Photo Edits</p>
+                    <p class="pricing__feature pricing__feature-unlock">
+                      Special Photo Edits
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1426,12 +1456,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">
+                    <p class="pricing__feature pricing__feature-unlock">
                       Wedding, Events & Festivals
                     </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1459,10 +1489,12 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">Engagement Shoot</p>
+                    <p class="pricing__feature pricing__feature-unlock">
+                      Engagement Shoot
+                    </p>
                   </div>
 
-                  <div class="pricing-feature-item">
+                  <div class="pricing__feature-item">
                     <svg
                       width="24"
                       height="24"
@@ -1490,11 +1522,13 @@
                       />
                     </svg>
 
-                    <p class="pricing-feature unlock">Ceremony Video</p>
+                    <p class="pricing__feature pricing__feature--unlock">
+                      Ceremony Video
+                    </p>
                   </div>
                 </div>
 
-                <button class="btn btn-outline-primary btn-full mt-xl">
+                <button class="btn btn--outline-primary btn--full mt-xl">
                   Let’s Work Together
                   <svg
                     width="24"
@@ -1527,24 +1561,24 @@
 
       <section class="blog" id="blog">
         <div class="container">
-          <div class="blog-wrapper">
+          <div class="blog__wrapper">
             <h2>Blog & News</h2>
 
-            <div class="blog-list">
-              <article class="blog-card">
-                <a href="#blog-link" target="_blank" class="blog-link">
+            <div class="blog__list">
+              <article class="blog__card">
+                <a href="#blog-link" target="_blank" class="blog__link">
                   <figure>
                     <img
                       src="assets/images/blog/unsplash_CZ-ldm8BFt8.jpg"
                       alt="Person sitting near window in cozy living room"
                     />
-                    <div class="blog-overlay"></div>
-                    <figcaption class="blog-content">
-                      <p class="blog-meta">
+                    <div class="blog__overlay"></div>
+                    <figcaption class="blog__content">
+                      <p class="blog__meta">
                         <time datetime="2020-10-22">22 Oct, 2020</time> / 24
                         Comments
                       </p>
-                      <h3 class="blog-title">
+                      <h3 class="blog__title">
                         Duis magna risus, convallis vel purus eu, sollicitudin
                         volutpat vel.
                       </h3>
@@ -1552,20 +1586,20 @@
                   </figure>
                 </a>
               </article>
-              <article class="blog-card">
-                <a href="#blog-link" target="_blank" class="blog-link">
+              <article class="blog__card">
+                <a href="#blog-link" target="_blank" class="blog__link">
                   <figure>
                     <img
                       src="assets/images/blog/Article.jpg"
                       alt="Person sitting near window in cozy living room"
                     />
-                    <div class="blog-overlay"></div>
-                    <figcaption class="blog-content">
-                      <p class="blog-meta">
+                    <div class="blog__overlay"></div>
+                    <figcaption class="blog__content">
+                      <p class="blog__meta">
                         <time datetime="2020-10-22">22 Oct, 2020</time> / 24
                         Comments
                       </p>
-                      <h3 class="blog-title">
+                      <h3 class="blog__title">
                         Duis magna risus, convallis vel purus eu, sollicitudin
                         volutpat vel.
                       </h3>
@@ -1574,22 +1608,22 @@
                 </a>
               </article>
 
-              <article class="blog-card">
-                <a href="#blog-link" target="_blank" class="blog-link">
+              <article class="blog__card">
+                <a href="#blog-link" target="_blank" class="blog__link">
                   <figure>
                     <img
                       src="assets/images/blog/Article-1.jpg"
                       alt="Person sitting near window in cozy living room"
                     />
 
-                    <div class="blog-overlay"></div>
+                    <div class="blog__overlay"></div>
 
-                    <figcaption class="blog-content">
-                      <p class="blog-meta">
+                    <figcaption class="blog__content">
+                      <p class="blog__meta">
                         <time datetime="2020-10-22">22 Oct, 2020</time> / 24
                         Comments
                       </p>
-                      <h3 class="blog-title">
+                      <h3 class="blog__title">
                         Duis magna risus, convallis vel purus eu, sollicitudin
                         volutpat vel.
                       </h3>
@@ -1603,10 +1637,10 @@
       </section>
 
       <section class="post" id="post">
-        <div class="container post-wrapper">
+        <div class="container post__wrapper">
           <h2>Latest instagram post</h2>
-          <ul class="post-list">
-            <li class="post-item">
+          <ul class="post__list">
+            <li class="post__item">
               <a
                 href="#insta-link-1"
                 target="_blank"
@@ -1617,7 +1651,7 @@
                   alt="Man with glasses drinking coffee"
                 />
 
-                <div class="post-overlay">
+                <div class="post__overlay">
                   <svg
                     width="24"
                     height="24"
@@ -1637,7 +1671,7 @@
                 </div>
               </a>
             </li>
-            <li class="post-item">
+            <li class="post__item">
               <a
                 href="#insta-link-2"
                 target="_blank"
@@ -1647,7 +1681,7 @@
                   src="assets/images/post/Image-1.jpg"
                   alt="Building facade with balconies"
                 />
-                <div class="post-overlay">
+                <div class="post__overlay">
                   <svg
                     width="24"
                     height="24"
@@ -1667,7 +1701,7 @@
                 </div>
               </a>
             </li>
-            <li class="post-item">
+            <li class="post__item">
               <a
                 href="#insta-link-3"
                 target="_blank"
@@ -1677,7 +1711,7 @@
                   src="assets/images/post/Image-2.jpg"
                   alt="Close-up of jewelry on person"
                 />
-                <div class="post-overlay">
+                <div class="post__overlay">
                   <svg
                     width="24"
                     height="24"
@@ -1697,7 +1731,7 @@
                 </div>
               </a>
             </li>
-            <li class="post-item">
+            <li class="post__item">
               <a
                 href="#insta-link-4"
                 target="_blank"
@@ -1707,7 +1741,7 @@
                   src="assets/images/post/Image-5.jpg"
                   alt="Beach view at sunset"
                 />
-                <div class="post-overlay">
+                <div class="post__overlay">
                   <svg
                     width="24"
                     height="24"
@@ -1727,7 +1761,7 @@
                 </div>
               </a>
             </li>
-            <li class="post-item">
+            <li class="post__item">
               <a
                 href="#insta-link-5"
                 target="_blank"
@@ -1737,7 +1771,7 @@
                   src="assets/images/post/Image-3.jpg"
                   alt="Woman outdoors in coat"
                 />
-                <div class="post-overlay">
+                <div class="post__overlay">
                   <svg
                     width="24"
                     height="24"
@@ -1757,7 +1791,7 @@
                 </div>
               </a>
             </li>
-            <li class="post-item">
+            <li class="post__item">
               <a
                 href="#insta-link-6"
                 target="_blank"
@@ -1767,7 +1801,7 @@
                   src="assets/images/post/Image-4.jpg"
                   alt="Drone shot of industrial site"
                 />
-                <div class="post-overlay">
+                <div class="post__overlay">
                   <svg
                     width="24"
                     height="24"
@@ -1792,9 +1826,9 @@
       </section>
 
       <section class="contact" id="contact">
-        <div class="container contact-wrapper">
-          <div class="contact-info">
-            <h2 class="contact-title">
+        <div class="container contact__wrapper">
+          <div class="contact__info">
+            <h2 class="contact__title">
               Have a project or question in mind? <br />Just send me a message.
             </h2>
             <p class="normal-text mt-sm">
@@ -1803,9 +1837,9 @@
               reply within 48 hours.
             </p>
 
-            <ul class="contact-list">
+            <ul class="contact__list">
               <li>
-                <div class="wrapper-icon-soft-primary">
+                <div class="wrapper-icon--primary">
                   <svg
                     width="24"
                     height="24"
@@ -1837,13 +1871,13 @@
                   </svg>
                 </div>
 
-                <div class="contact-text">
-                  <p class="contact-type">Call me now</p>
+                <div class="contact__text">
+                  <p class="contact__type">Call me now</p>
                   <a href="tel:+12025550190">+1-202-555-0190</a>
                 </div>
               </li>
               <li>
-                <div class="wrapper-icon-soft-primary">
+                <div class="wrapper-icon--primary">
                   <svg
                     width="24"
                     height="24"
@@ -1882,8 +1916,8 @@
                   </svg>
                 </div>
 
-                <div class="contact-text">
-                  <p class="contact-type">Chat with me</p>
+                <div class="contact__text">
+                  <p class="contact__type">Chat with me</p>
                   <a href="mailto:kevin.gilbert@gmail.com"
                     >kevin.gilbert@gmail.com</a
                   >
@@ -1891,14 +1925,14 @@
               </li>
             </ul>
 
-            <div class="social">
-              <p class="social-title">Follow me on social media</p>
-              <ul class="social-list">
+            <div class="contact__social">
+              <p class="contact__social__title">Follow me on social media</p>
+              <ul class="contact__social__list">
                 <li>
-                  <div class="social-bar"></div>
+                  <div class="contact_social__bar"></div>
                 </li>
                 <li>
-                  <a href="#" aria-label="Facebook" class="wrapper-icon-white"
+                  <a href="#" aria-label="Facebook" class="wrapper-icon--white"
                     ><svg
                       width="16"
                       height="16"
@@ -1916,7 +1950,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="Twitter" class="wrapper-icon-white"
+                  <a href="#" aria-label="Twitter" class="wrapper-icon--white"
                     ><svg
                       width="17"
                       height="16"
@@ -1932,7 +1966,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="LinkedIn" class="wrapper-icon-white"
+                  <a href="#" aria-label="LinkedIn" class="wrapper-icon--white"
                     ><svg
                       width="16"
                       height="16"
@@ -1949,7 +1983,7 @@
                 </li>
 
                 <li>
-                  <a href="#" aria-label="Instagram" class="wrapper-icon-white"
+                  <a href="#" aria-label="Instagram" class="wrapper-icon--white"
                     ><svg
                       width="16"
                       height="16"
@@ -1969,7 +2003,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="Dribbble" class="wrapper-icon-white"
+                  <a href="#" aria-label="Dribbble" class="wrapper-icon--white"
                     ><svg
                       width="16"
                       height="16"
@@ -1997,12 +2031,12 @@
             </div>
           </div>
 
-          <div class="contact-divider"></div>
+          <div class="contact__divider"></div>
 
-          <form class="contact-form" action="#" method="post">
-            <p class="contact-form-title">Just say 👋 Hi</p>
+          <form class="contact__form" action="#" method="post">
+            <p class="contact__form__title">Just say 👋 Hi</p>
 
-            <div class="form-row mt-xl">
+            <div class="contact__form__row mt-xl">
               <input type="text" name="name" placeholder="Full Name" required />
               <input
                 type="email"
@@ -2019,7 +2053,7 @@
               class="mt-sm"
             />
 
-            <div class="form-row mt-sm">
+            <div class="contact__form__row mt-sm">
               <select name="plan">
                 <option>Pricing Plans</option>
                 <option>Standard</option>
@@ -2036,7 +2070,7 @@
               class="mt-sm"
             ></textarea>
 
-            <button type="submit" class="btn btn-primary mt-xl">
+            <button type="submit" class="btn btn--primary mt-xl">
               Send Message
               <svg
                 width="24"
@@ -2067,8 +2101,8 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer-wrapper">
-        <a class="footer-brand" href="#">
+      <div class="container footer__wrapper">
+        <a class="footer__brand" href="#">
           <svg
             width="48"
             height="48"
@@ -2094,7 +2128,7 @@
           Robert Warren
         </a>
         <nav>
-          <ul class="footer-nav">
+          <ul class="footer__nav">
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -2102,7 +2136,7 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-        <p class="footer-copy">&copy; 2022 Robert Warren</p>
+        <p class="footer__copy">&copy; 2022 Robert Warren</p>
       </div>
     </footer>
   </body>
