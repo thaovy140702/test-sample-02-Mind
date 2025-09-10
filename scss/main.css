@@ -736,17 +736,17 @@ h3 {
   font-size: var(--text-sm);
   line-height: 2.4rem;
 }
-.pricing__lock {
+.pricing__feature--lock {
   font-weight: 400;
   color: var(--gray-5);
   text-decoration: underline;
   text-decoration-line: line-through;
 }
-.pricing__unlock {
+.pricing__feature--unlock {
   font-weight: 500;
   color: var(--black-1);
 }
-.pricing__ceremoney {
+.pricing__feature--ceremoney {
   font-weight: 500;
 }
 

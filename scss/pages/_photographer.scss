@@ -515,23 +515,23 @@ $text-dark: #111;
         font-family: inherit;
         font-size: var(--text-sm);
         line-height: 2.4rem;
-    }
 
-    &__lock {
-        font-weight: 400;
-        color: var(--gray-5);
-        text-decoration: underline;
+        &--lock {
+            font-weight: 400;
+            color: var(--gray-5);
+            text-decoration: underline;
 
-        text-decoration-line: line-through;
-    }
+            text-decoration-line: line-through;
+        }
 
-    &__unlock {
-        font-weight: 500;
-        color: var(--black-1);
-    }
+        &--unlock {
+            font-weight: 500;
+            color: var(--black-1);
+        }
 
-    &__ceremoney {
-        font-weight: 500;
+        &--ceremoney {
+            font-weight: 500;
+        }
     }
 }
 
